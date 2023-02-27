@@ -8,43 +8,30 @@
     <meta name="description" content="Busca de suplementos veganos">
     <meta name="keywords" content="vegano, suplementos, cruelty free, veg">
     <link rel="stylesheet" href="./src/styles.css" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    
     <title>VegMaromba</title>
   </head>
 
   <body>
-    <div id="header">
     <header>
-        <img src="./src/assets/images/logo.jpg" alt="" height="80px"/>
-        <p class="title-header">VegMaromba</p>
-        <div class="search-space">
-            <img src="./src/assets/images/lupa.png" alt="" height="30px" />
-        </div>
-        <div id="header-list">
-        <ul>
-            <li>
-                Whey
-            </li>
-            <li>
-                Creatina
-            </li>
-            <li>
-                BCAA
-            </li>
-            <li>
-                Outros
-            </li>
-        </ul>   
-    </div>     
-    </header>
-    </div>      
-    <div class="slider">
-        <div class="slides">
-          <img src="./src/assets/images/dio-brando.png" >
-          <img src="./src/assets/images/dio-brando.png" >
-          <img src="./src/assets/images/dio-brando.png" >
-        </div>
+      <div class="logo">
+        <img src="./src/assets/images/logo.jpg" alt="Logo do Site">
+        <h1>VegMaromba</h1>
       </div>
+      <nav>
+        <ul>
+          <li><a href="#">Whey</a></li>
+          <li><a href="#">Creatina</a></li>
+          <li><a href="#">BCAA</a></li>
+          <li><a href="#">Outros</a></li>
+        </ul>
+      </nav>
+      <div class="search-container">
+        <i class="fa fa-search" id="search-icon"></i>
+        <input type="text" placeholder="Pesquisar" id="search-input">
+      </div>
+    </header>
     <script src="./src/vanilla.js"></script>  
   </body>
   </html>
