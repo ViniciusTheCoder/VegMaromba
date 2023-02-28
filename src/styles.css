@@ -72,10 +72,6 @@ nav li:last-child {
   width: 80px;
 }
 
-.bcaa-class {
-  width: 60px;
-}
-
 .outros-class{
   width: 65px;
 }
@@ -83,35 +79,6 @@ nav li:last-child {
 a {
   text-decoration: none;
   color: inherit;
-}
-
-.search-container {
-  position: relative;
-  width: 200px;
-}
-
-.fa-search {
-  position: absolute;
-  top: 50%;
-  left: 5px;
-  transform: translateY(-50%);
-  font-size: 1.2em;
-  color: #333;
-  cursor: pointer;
-}
-
-#search-input {
-  display: none;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  width: 150px;
-  padding: 5px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1em;
-  color: #333;
 }
 
 .slider {
@@ -223,19 +190,26 @@ a {
   margin-top: 2rem;
 }
 
+#Creatina {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+#Outros {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
 #linha-horizontal {
    
    width: 300px;
    height: 1px;
    border: 1px solid #000;
    background-color: #000;
-}
-
-#Creatina {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 2rem;
 }
 
 .body-grid {
