@@ -218,34 +218,24 @@ a {
 
 #Whey {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 2rem;
 }
 
-#Whey h1 {
-  background: rgba( 23, 48, 218, 0.55 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 6px );
-  -webkit-backdrop-filter: blur( 6px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  padding: 3px 3px;
+#linha-horizontal {
+   
+   width: 300px;
+   height: 1px;
+   border: 1px solid #000;
+   background-color: #000;
 }
 
 #Creatina {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 2rem;
-}
-
-#Creatina h1 {
-  background: rgba( 23, 48, 218, 0.55 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 6px );
-  -webkit-backdrop-filter: blur( 6px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  padding: 3px 3px;
 }
 
 .body-grid {
