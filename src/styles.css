@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 
 html {
   scroll-behavior: smooth;
@@ -11,25 +13,29 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
+  padding: 0 15%;
   align-items: center;
+  justify-content: space-between;
   padding: 20px;
-  background-color: #D8EACC;
+  background-color: #151515;
+  border-bottom: 2px solid #272727;
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
-  font-size: 120%;
+header h1{
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  font-size: 180%;
+  color: #FFF;
 }
 
 .logo {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .logo img {
-  height: 75px;
+  height: 80px;
   margin-right: 10px;
 }
 
@@ -45,8 +51,8 @@ nav li {
   height: 20px;
   border: none;
   margin-right: 20px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  font-weight: light;
   font-size: 16px;
 }
 
@@ -66,14 +72,17 @@ nav li:last-child {
 
 .whey-class {
   width: 60px;
+  color: #FFF;
 }
 
 .creatine-class {
   width: 80px;
+  color: #FFF;
 }
 
 .outros-class{
   width: 65px;
+  color: #FFF;
 }
 
 a {
@@ -180,28 +189,51 @@ a {
 #slider-container {
   height: 425px;
   padding-top: 25px;
-  background-color: rgba(255,224,27,0.65);
+  background-color: #1b1b1b;
+  border-bottom: 2px solid #272727;
 }
 
 #Whey {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 2rem;
+  padding-top: 2rem;
+  background-color: #151515;
+}
+
+#Whey h1{
+  color: #00d2df;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 1.3rem;
 }
 
 #Creatina {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 2rem;
+  background-color: #151515;
+}
+
+#Creatina h1{
+  color: #00d2df;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 1.3rem;
 }
 
 #Outros {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 2rem;
+  background-color: #151515;
+}
+
+#Outros h1{
+  color: #00d2df;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 1.3rem;
 }
 
 #linha-horizontal {
@@ -209,7 +241,7 @@ a {
    width: 300px;
    height: 1px;
    border: 1px solid #000;
-   background-color: #000;
+   background-color: #00d2df;
 }
 
 .body-grid {
@@ -217,6 +249,7 @@ a {
   align-items: center;
   justify-content: center;
   min-height: 50vh;
+  background-color: #151515;
 }
 
 .product-grid {
@@ -232,7 +265,7 @@ a {
   position: relative;
   padding: 10px;
   width: 400px;
-  background-color: #FFF;
+  background-color: #1b1b1b;
   margin: 20px;
   border: 1px solid black;
   border-radius: 20px;
@@ -248,6 +281,7 @@ a {
 .product-grid .grid h1 {
   font-size: 1.5rem;
   text-align: center;
+  color: #fff;
 }
 
 .product-grid .grid .grid-content {
@@ -273,11 +307,12 @@ a {
 }
 
 .product-grid .grid:hover {
-  background-color: #D8EACC;
+  background-color: rgba(101, 24, 180, 1);
   color:rgba(23, 48, 218, 1);
   margin-top: -30px;
-  box-shadow: 2px 20px 25px #D8EACC;
-  border-color: #D8EACC;
+  box-shadow: 2px 20px 25px #00d2df;
+  border-color: #00d2df;
+
 }
 
 .product-grid .grid:hover p {
@@ -287,6 +322,15 @@ a {
 .product-grid .grid:hover a {
   color: black;
   background-color: white;
+}
+
+.product-grid .grid h1 {
+  font-weight: lighter;
+}
+
+.product-grid .grid:hover h1 {
+  color: black;
+  font-weight:normal;
 }
 
 p {
