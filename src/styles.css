@@ -21,7 +21,7 @@ header {
 }
 
 header h1{
-  margin-left: 215px;
+  margin-left: 150px;
   font-family: 'Inter', sans-serif;
   font-weight: bold;
   font-size: 250%;
@@ -71,7 +71,7 @@ nav li::after {
   position: absolute;
   bottom: 0;
   left: 0;
-  transition: 0.3s ease;
+  transition: 0.5s ease;
 }
 
 nav li:hover::after {
@@ -369,7 +369,7 @@ p {
 
 .footer_p_name {
   display: inline-block;
-  color: rgba(101, 24, 180, 1);
+  color: #0a6cdf;
   font-family: 'Montserrat', sans-serif;
   padding-left: 6px;
 }
