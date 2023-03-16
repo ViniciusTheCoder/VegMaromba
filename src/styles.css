@@ -24,9 +24,9 @@ header h1{
   margin-left: 215px;
   font-family: 'Inter', sans-serif;
   font-weight: bold;
-  font-size: 150%;
-  letter-spacing: 25px;
-  color: rgba(101, 24, 180, 1);
+  font-size: 250%;
+  letter-spacing: 15px;
+  color: #20a6ff;
 }
 
 .logo {
@@ -38,6 +38,8 @@ header h1{
 .logo img {
   height: 120px;
   margin-right: 10px;
+  border: 3px solid #20a6ff;
+  border-radius: 80px;
 }
 
 nav ul {
@@ -46,7 +48,6 @@ nav ul {
 }
 
 nav li {
-  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,7 +104,9 @@ a {
 
 .slider {
   margin: 0 auto;
-  border: 2px solid #20a6ff;
+  border-style: solid;
+  border-width: 2.5px;
+  border-image: linear-gradient(45deg, #b63c8e, #0a6cdf) 1;
   border-radius: 10px;
   width: 800px;
   height: 400px;
